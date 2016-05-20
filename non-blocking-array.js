@@ -245,9 +245,12 @@
             return;
         }
         partition(array, low, high, comparator, function (pivot) {
-            quickSort(array, low, pivot, comparator, function () {
-                quickSort(array, pivot+1, high, comparator, success, error);
-            }, error);
+            function _success () {
+                if (_success.both) success(array);
+                else _success.both = true;
+            }
+            quickSort(array, low, pivot, comparator, _success, error);
+            quickSort(array, pivot+1, high, comparator, _success, error);
         }, error);
     }
 
