@@ -1,0 +1,33 @@
+{
+  "name": "non-blocking-array",
+  "version": "1.0.0",
+  "description": "non blocking array operations",
+  "main": "non-blocking-array.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "keywords": [
+    "utils",
+    "array",
+    "non-blocking",
+    "client",
+    "server",
+    "browser"
+  ],
+  "author": "Olivier BERNARD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OlivierB-OB/non-blocking-array.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^1.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2"
+  }
+}

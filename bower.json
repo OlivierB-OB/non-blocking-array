@@ -1,0 +1,16 @@
+{
+  "name": "non-blocking-array",
+  "main": "non-blocking-array.js",
+  "keywords": [
+      "util",
+      "functional",
+      "server",
+      "client",
+      "browser"
+  ],
+  "ignore" : [
+      ".*",
+      "package.json",
+      "karma.*"
+  ]
+}
