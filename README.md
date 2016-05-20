@@ -3,6 +3,6 @@ non blocking array operations
 
 ## project state
 
-[![js standard style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)]()
+[![build status](https://circleci.com/gh/jden/node-nonblocking.svg?&style=shield)][circleci]
 
 [circleci]: https://circleci.com/gh/OlivierB-OB/non-blocking-array
