@@ -5,7 +5,7 @@
     var ARR_EMPTY = [],
         ARR_INT = [1, 2, 3],
         ARR_STR = ['a', 'b', 'c'],
-        ARR_INT_BIG = Array.apply([], new Array(10000)).map(function (x, i) {
+        ARR_INT_BIG = Array.apply([], new Array(1000)).map(function (x, i) {
             return i;
         });
     var arr_empty, arr_int, arr_str, arr_int_big;
